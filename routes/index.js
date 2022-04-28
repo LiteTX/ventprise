@@ -48,6 +48,11 @@ router.get('/trust-services', forwardAuthenticated, (req, res) => res.render('tr
 
 
 
+//what makes us better
+router.get('/what-makes-us-better', forwardAuthenticated, (req, res) => res.render('better'));
+
+
+
 
 
 //FINANACIAL SERVIVES 
