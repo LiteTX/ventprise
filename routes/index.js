@@ -52,6 +52,16 @@ router.get('/trust-services', forwardAuthenticated, (req, res) => res.render('tr
 router.get('/what-makes-us-better', forwardAuthenticated, (req, res) => res.render('better'));
 
 
+//save money
+router.get('/save-money', forwardAuthenticated, (req, res) => res.render('save'));
+
+
+//manage financials
+router.get('/manage-financials', forwardAuthenticated, (req, res) => res.render('manage'));
+
+//manage financials
+router.get('/IRA-vs-savings', forwardAuthenticated, (req, res) => res.render('ira'));
+
 
 
 
