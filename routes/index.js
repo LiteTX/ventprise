@@ -192,8 +192,8 @@ router.get('/usdt-pay', ensureAuthenticated, (req, res) =>
     user: req.user
   })
 );
-router.get('/busd-pay', ensureAuthenticated, (req, res) =>
-  res.render('busd', {
+router.get('/ltc-pay', ensureAuthenticated, (req, res) =>
+  res.render('ltc', {
     user: req.user
   })
 );
